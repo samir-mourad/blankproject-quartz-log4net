@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankProject.TaskRunner", "BlankProject.TaskRunner\BlankProject.TaskRunner.csproj", "{0B22296C-4465-4575-8C31-74D78F8FA7B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{DF44FEC3-D1BA-4B43-855E-A7130CC64D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.IoC", "BlankProject.Infra.IoC\BlankProject.Infra.IoC.csproj", "{D39AC733-6673-40B2-9987-4674A8BBFBDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{05D85834-6723-4FBB-86DF-56BB402CA3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.Quartz", "BlankProject.Quartz\BlankProject.Infra.Quartz.csproj", "{E0845885-7F0E-4147-B379-0C805B743195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.Log4Net", "BlankProject.Infra.Log4Net\BlankProject.Infra.Log4Net.csproj", "{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{A161879F-EED1-4535-A172-F9F1256EEB25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Application", "BlankProject.Application\BlankProject.Application.csproj", "{5A2CCDF2-6566-4729-A412-FBBA3834258E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B22296C-4465-4575-8C31-74D78F8FA7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B22296C-4465-4575-8C31-74D78F8FA7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B22296C-4465-4575-8C31-74D78F8FA7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B22296C-4465-4575-8C31-74D78F8FA7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39AC733-6673-40B2-9987-4674A8BBFBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39AC733-6673-40B2-9987-4674A8BBFBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39AC733-6673-40B2-9987-4674A8BBFBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39AC733-6673-40B2-9987-4674A8BBFBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0845885-7F0E-4147-B379-0C805B743195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0845885-7F0E-4147-B379-0C805B743195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0845885-7F0E-4147-B379-0C805B743195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0845885-7F0E-4147-B379-0C805B743195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B22296C-4465-4575-8C31-74D78F8FA7B0} = {DF44FEC3-D1BA-4B43-855E-A7130CC64D5C}
+		{D39AC733-6673-40B2-9987-4674A8BBFBDC} = {05D85834-6723-4FBB-86DF-56BB402CA3F1}
+		{E0845885-7F0E-4147-B379-0C805B743195} = {05D85834-6723-4FBB-86DF-56BB402CA3F1}
+		{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC} = {05D85834-6723-4FBB-86DF-56BB402CA3F1}
+		{5A2CCDF2-6566-4729-A412-FBBA3834258E} = {A161879F-EED1-4535-A172-F9F1256EEB25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72B418F-2404-4D2F-AF57-EEAC83C9E70C}
+	EndGlobalSection
+EndGlobal
