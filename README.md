@@ -1,0 +1,1 @@
+# blankproject-quartz-log4net
