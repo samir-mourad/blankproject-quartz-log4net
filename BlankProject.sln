@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankProject.TaskRunner", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{DF44FEC3-D1BA-4B43-855E-A7130CC64D5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.IoC", "BlankProject.Infra.IoC\BlankProject.Infra.IoC.csproj", "{D39AC733-6673-40B2-9987-4674A8BBFBDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankProject.Infra.IoC", "BlankProject.Infra.IoC\BlankProject.Infra.IoC.csproj", "{D39AC733-6673-40B2-9987-4674A8BBFBDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{05D85834-6723-4FBB-86DF-56BB402CA3F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.Quartz", "BlankProject.Quartz\BlankProject.Infra.Quartz.csproj", "{E0845885-7F0E-4147-B379-0C805B743195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankProject.Infra.Quartz", "BlankProject.Quartz\BlankProject.Infra.Quartz.csproj", "{E0845885-7F0E-4147-B379-0C805B743195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.Log4Net", "BlankProject.Infra.Log4Net\BlankProject.Infra.Log4Net.csproj", "{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankProject.Infra.Log4Net", "BlankProject.Infra.Log4Net\BlankProject.Infra.Log4Net.csproj", "{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{A161879F-EED1-4535-A172-F9F1256EEB25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Application", "BlankProject.Application\BlankProject.Application.csproj", "{5A2CCDF2-6566-4729-A412-FBBA3834258E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankProject.Application", "BlankProject.Application\BlankProject.Application.csproj", "{5A2CCDF2-6566-4729-A412-FBBA3834258E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankProject.Infra.Data", "BlankProject.Infra.Data\BlankProject.Infra.Data.csproj", "{F2BF93AA-560B-4B2D-A339-B59B2C6D4E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2CCDF2-6566-4729-A412-FBBA3834258E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BF93AA-560B-4B2D-A339-B59B2C6D4E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BF93AA-560B-4B2D-A339-B59B2C6D4E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BF93AA-560B-4B2D-A339-B59B2C6D4E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BF93AA-560B-4B2D-A339-B59B2C6D4E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{E0845885-7F0E-4147-B379-0C805B743195} = {05D85834-6723-4FBB-86DF-56BB402CA3F1}
 		{29AB45DF-ABCD-42FD-A4FC-26B3DF17DCEC} = {05D85834-6723-4FBB-86DF-56BB402CA3F1}
 		{5A2CCDF2-6566-4729-A412-FBBA3834258E} = {A161879F-EED1-4535-A172-F9F1256EEB25}
+		{F2BF93AA-560B-4B2D-A339-B59B2C6D4E64} = {05D85834-6723-4FBB-86DF-56BB402CA3F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B72B418F-2404-4D2F-AF57-EEAC83C9E70C}
